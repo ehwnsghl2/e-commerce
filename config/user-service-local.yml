@@ -1,4 +1,5 @@
 spring:
+  profiles: local
   datasource:
     url: jdbc:mysql://localhost:3306/user?serverTimezone=Asia/Seoul&useSSL=false
     username: root
