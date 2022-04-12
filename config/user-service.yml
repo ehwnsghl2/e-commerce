@@ -1,13 +1,4 @@
-server:
-  port: 9001
-  shutdown: graceful
-
 spring:
-  application:
-    name: user-service
-  profiles:
-    active: local
-
   datasource:
     type: com.zaxxer.hikari.HikariDataSource # Spring Boot 2 이상 커넥션풀 라이브러리가 HikariCP
     hikari: # connection-timeout :  pool에서 connect 얻을 때 최대 대기시간이며, 기본 30초임
