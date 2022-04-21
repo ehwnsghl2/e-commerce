@@ -52,6 +52,10 @@ spring:
       key-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       value-deserializer: org.apache.kafka.common.serialization.StringDeserializer
       enable-auto-commit: false
+    listener:
+      ack-mode: manual
+      poll-timeout: 500
+      concurrency: 5
 
 
 feign:
