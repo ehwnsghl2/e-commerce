@@ -58,3 +58,8 @@ logging:
     org.springframework.jdbc.datasource.SimpleDriverDataSource: DEBUG
     org.hibernate.SQL: DEBUG
     org.hibernate.type.descriptor.sql: INFO
+    
+policy:
+  shipping:
+    free-amount: 70000
+  purchase-mileage-rate: 3
