@@ -63,6 +63,11 @@ feign:
         connectTimeout: 3000
         readTimeout: 3000
         loggerLevel: BASIC
+        
+review:
+  save-rate:
+    text: 3
+    photo: 5
 
 logging:
   level:
