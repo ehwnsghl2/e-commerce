@@ -46,7 +46,7 @@ security:
   oauth2:
     resource:
       jwt:
-        key-value: fastview-dev-01-a12zs33zaedfeeaa
+        key-value: brandjunhoe-oauth2-jwt
 
 logging:
   level:
