@@ -42,6 +42,11 @@ spring:
   main:
     allow-bean-definition-overriding: true
     
+security:
+  oauth2:
+    resource:
+      jwt:
+        key-value: fastview-dev-01-a12zs33zaedfeeaa
 
 logging:
   level:
