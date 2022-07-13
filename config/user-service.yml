@@ -66,9 +66,3 @@ feign:
         readTimeout: 3000
         loggerLevel: BASIC
 
-logging:
-  level:
-    root: info
-    org.springframework.jdbc.datasource.SimpleDriverDataSource: DEBUG
-    org.hibernate.SQL: DEBUG
-    org.hibernate.type.descriptor.sql: INFO
