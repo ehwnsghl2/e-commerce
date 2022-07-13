@@ -28,7 +28,7 @@ spring:
     generate-ddl: false # DDL 생성 여부
     open-in-view: false # jpa 성닝이슈 때문에 false로 권장. true일 경우 영속성 컨텍스트가 트랜잭션 범위를 넘어선 레이어까지 살아있다.
     hibernate:
-      ddl-auto: update # create update validate none
+      ddl-auto: validate # create update validate none
       #use-new-id-generator-mappings: true # JPA 표준에 맞는 새로운 키 생성 전략을 사용함.
     properties:
       hibernate.connection.provider_disables_autocommit: false # ID 관련되어서 하이버네이트 속성에 따른 생성
