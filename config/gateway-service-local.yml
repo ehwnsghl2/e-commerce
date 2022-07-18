@@ -37,7 +37,7 @@ spring:
         filters:
         # 해당 라우터의 필터로, RewritePath는 강제로 Patch를 다시 작성
         # 요청이 오면 /order/를 제거하고 order-service를 호출
-        - RewritePath=/service/(?<path>.*),/$\{path}
+        #- RewritePath=/service/(?<path>.*),/$\{path}
         - name: Retry
           args:
             retries: 3
