@@ -8,6 +8,7 @@ spring:
   jpa:
     hibernate:
       ddl-auto: create # create update validate none
+      
 eureka:
   client:
     register-with-eureka: true
