@@ -4,7 +4,10 @@ spring:
     username: root
     password: junhoe
     driver-class-name: com.mysql.cj.jdbc.Driver
-
+  
+  jpa:
+    hibernate:
+      ddl-auto: create # create update validate none
 eureka:
   client:
     register-with-eureka: true
